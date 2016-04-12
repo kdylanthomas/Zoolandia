@@ -11,8 +11,8 @@ namespace Zoolandia.Animals
         public EudyptesChrysolophus()
         {
             this.url = "https://en.wikipedia.org/wiki/Macaroni_penguin";
-            this.genus = new Eudyptes("South America");
-            this.scientificName = "EudyptesChrysolophus";
+            this.genus = new Eudyptes();
+            this.scientificName = "Eudyptes Chrysolophus";
             this.commonName = "Macaroni Penguin";
         }
     }
