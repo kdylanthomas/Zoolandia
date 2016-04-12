@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoolandia.Animals
 {
-    class MacaroniPenguin : Animal, IAmbulatory
+    class Penguin : Animal, IAmbulatory
     {
         public double groundSpeed
         {
