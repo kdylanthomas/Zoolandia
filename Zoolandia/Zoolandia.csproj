@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animals\Animal.cs" />
+    <Compile Include="Animals\Classifications\EudyptesChrysolophus.cs" />
+    <Compile Include="Animals\Classifications\Genus.cs" />
+    <Compile Include="Animals\Classifications\Species.cs" />
+    <Compile Include="Animals\Classifications\TaxonomyTerm.cs" />
+    <Compile Include="Animals\Interfaces\IAmbulatory.cs" />
+    <Compile Include="Animals\Interfaces\IAnimal.cs" />
+    <Compile Include="Animals\Classifications\Eudyptes.cs" />
+    <Compile Include="Animals\MacaroniPenguin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
